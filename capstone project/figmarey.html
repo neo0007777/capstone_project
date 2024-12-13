@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            font-family: "Inter Tight", sans-serif;
+        }
+        body{
+        margin: 0;
+        padding: 0;
+        height: 100%; 
+        width: 100%;  
+}
+
+        
+
+        body {
+            background-color: rgb(46, 40, 39);
+        }
+
+        .navbar {
+            width: 100%;
+
+            
+            font-weight: bold;
+
+
+            
+            display: inline-block;}
+
+        .nav-link {
+            
+            
+            padding: 22px;
+            color: rgb(230, 217, 213);
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bolder;
+            cursor: pointer;
+
+        }
+
+        .nav-link:hover {
+            color: green;
+            transform: scale(1.1);}
+
+        @media (max-width: 200px) {
+        .page1{
+            width: 40px;
+            height: auto;
+            }}
+        
+
+        .page1{
+            display: flex;
+            justify-content: flex-end;
+            border-bottom: 0.5px solid rgb(105, 97, 96);
+        }
+
+        @media (min-width: 200px) {
+            .navbar .nav-link {
+                float: none;
+                display: block;
+                width: 45%;
+                text-align: left;
+
+            }
+        }
+
+        @media (min-width: 600px) {
+            .heading{
+                float: none;
+                display: block;
+                width: 300px;
+            }
+        
+        }
+            
+        
+
+        .heading {
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        .heading h1 {
+            font-size: 9rem;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            color: rgb(230, 217, 213);
+            margin-top:25%;
+            font-weight: 400;
+            letter-spacing: 6px;
+            line-height: 0.9;
+        }
+        @media (max-width: 768px) {
+            .heading h1 {
+                font-size: 5rem;
+            }
+        } 
+
+        @media (max-width: 480px) {
+            .heading h1 {
+                font-size: 3rem;
+            }
+        }
+        
+        .immgg {
+            text-align: center;
+            
+            transform: translate(0, 390px);
+            margin-top: -5%
+        }
+        @media (min-width: 300px) {
+            .imgg{
+                float: none;
+                display: block;
+                height: 800px;
+                
+            }
+        }
+        .main_img {
+            
+            border-radius: 15px;
+            height: auto;
+            width: 1444px;
+            margin-top: -5%;
+            transform: translate(30px,0);
+        }
+        @media (max-width: 500px) {
+            .main_img{
+                float: none;
+                display: block;
+                width: 500px;
+                height: auto;
+                transform: translateY(-200px);
+            }
+        }
+
+        @media (max-width: 300px) {
+            .main_img{
+                float: none;
+                display: block;
+                width: 300px;
+               
+                height: auto;
+                transform: translate(25px,-200px);
+            }
+        }
+        .fashion {
+            transform: translate(30px, 400px);
+            color: rgb(230, 217, 213);
+            font-style: inherit;
+            font-size: 36px;
+            ;
+
+        }
+        @media (max-width: 768px) {
+            .fashion {
+                font-size: 38px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .fashion {
+                font-size: 30px;
+            }
+        }
+
+        .fashiodiv {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translate(0,500px);
+    
+        }
+        .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); }
+
+
+        .grid-item img {
+        transition: transform 0.3s ease;
+  }
+
+        .grid-item img:hover {
+         transform: scale(0.9);
+                                }
+        
+        .nav-link:hover {
+        color: green;
+        transform: scale(1.1);}
+
+
+
+
+      
+    
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="page1">
+            <h1 style="color: rgb(230, 217, 213); font-size: 32px; transform: translate(-970px);font-weight: bolder;">Sabi</h1>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="heading">
+            <h1>Embrace <br> Imperfection</h1>
+        </div>
+
+        <div class="immgg">
+            <img src="Screenshot 2024-12-05 at 12.58.07 AM.png" alt="Description of Image" class="main_img">
+        </div>
+        <div class="fashiondiv">
+            <p class="fashion">Iam a designer who finds <br>beauty in the imperfect <br>and the transient.<br>drawing
+                inspiration from<br>the natural world.</p>
+        </div>
+    </div>
+        <div class="grid-container">
+            <div class="grid-item" style="transform: translate(30px,480px);"><img src="img1.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Wabi-Sabi    Vase
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Ceramics</div>
+            </div>
+            </div>
+            
+            <div class="grid-item" style="transform: translate(30px,480px);"><img src="img2.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Weathered    Stone    Sculpture
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Sculpture</div>
+            </div>
+            </div>
+
+            <div class="grid-item" style="transform: translate(30px,480px);"><img src="img3.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Organic    Form    Lamp
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Lightinh</div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="grid-container">
+            <div class="grid-item" style="transform: translate(30px,440px);"><img src="img4.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Aging    Wood    Table
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Furniture</div>
+            </div>
+            </div>
+            
+            <div class="grid-item" style="transform: translate(30px,540px);"><img src="img 5.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Handcrafted    Bowl
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Ceramics</div>
+            </div>
+            </div>
+
+            <div class="grid-item" style="transform: translate(30px,380px);"><img src="img 6.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Aged    Metal   Art
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Metalwork</div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="grid-container">
+            <div class="grid-item" style="transform: translate(30px,300px); "><img src="img 7.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Rustiv Pottery
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Ceramics</div>
+            </div>
+            </div>
+            
+            <div class="grid-item" style="transform: translate(30px,480px);"><img src="img 9.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Vintage  Teapot
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Ceramics</div>
+            </div>
+            </div>
+
+            <div class="grid-item" style="transform: translate(30px,400px);"><img src="img8.png" alt="image_1">
+            <div class="grid-item" style="color: rgb(230, 217, 213);">Natural  Fiber  Rug
+            <div class="grid-item" style="color: rgb(161, 150, 148);">Ceramics</div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div style="display: flex; justify-content: flex-end; align-items: flex-end;">
+    <p style="transform: translate(0px, 420px); color: rgb(230, 217, 213); font-size: 24px;">My work is a reflection of the philosophy of wabi-sabi,<br>celebrating the beauty of imperfection and the passage of<br>time.</p>    
+    </div>   
+            
+        </div>
+    </div>
+</body>
+
+</html>
